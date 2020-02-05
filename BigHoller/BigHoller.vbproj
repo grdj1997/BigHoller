@@ -18,7 +18,7 @@
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44358</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -92,9 +92,102 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="about.aspx" />
+    <Content Include="assets\blob-shape-1.svg" />
+    <Content Include="assets\blob-shape-2.svg" />
+    <Content Include="assets\blob-shape-3.svg" />
+    <Content Include="assets\brain_en.mp4" />
+    <Content Include="assets\fonts\fontello.svg" />
+    <Content Include="assets\hungry-brain-poster-com.png" />
+    <Content Include="assets\hungry-brain.mp4" />
+    <Content Include="assets\linkedin-icon-white.svg" />
+    <Content Include="assets\linkedin-icon.svg" />
+    <Content Include="assets\pizza-1.svg" />
+    <Content Include="ccard-process.aspx" />
+    <Content Include="contact-partners.aspx" />
+    <Content Include="contact-reseller.aspx" />
+    <Content Include="contact-sales.aspx" />
+    <Content Include="contact-support.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\style-2.css" />
+    <Content Include="css\style-min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="favicon-com.png" />
+    <Content Include="img\app-prespective-4.png" />
+    <Content Include="img\app-prespective-5.png" />
+    <Content Include="img\app-prespective-6.png" />
+    <Content Include="img\brain-2.png" />
+    <Content Include="img\brands\amys.png" />
+    <Content Include="img\brands\edison-diner.png" />
+    <Content Include="img\brands\fairfield.png" />
+    <Content Include="img\brands\pakulas-com.png" />
+    <Content Include="img\brands\trattoria632.png" />
+    <Content Include="img\brands\wingsthings.png" />
+    <Content Include="img\brands\yardsgourmey.png" />
+    <Content Include="img\edison-diner-held-in-hand.jpg" />
+    <Content Include="img\edison-diner-three-app-images.png" />
+    <Content Include="img\impact.jpg" />
+    <Content Include="img\logo-white1x.png" />
+    <Content Include="img\logo-white2x.png" />
+    <Content Include="img\logo-white3x.png" />
+    <Content Include="img\logo-white4x.png" />
+    <Content Include="img\logo1x.png" />
+    <Content Include="img\logo2x.png" />
+    <Content Include="img\logo3x.png" />
+    <Content Include="img\logo4x.png" />
+    <Content Include="img\pizza-1.png" />
+    <Content Include="img\quick-to-customize-demo.png" />
+    <Content Include="img\stone-fired-pizza-driving-directions.png" />
+    <Content Include="img\stone-fired-pizza-main.png" />
+    <Content Include="img\stone-fired-pizza-menu.png" />
+    <Content Include="img\stone-fired-pizza-ordering.png" />
+    <Content Include="img\stonefiredpizza-quote-com.png" />
+    <Content Include="inc\callout-section.inc" />
+    <Content Include="inc\contact-page-section.inc" />
+    <Content Include="inc\cta-section.inc" />
+    <Content Include="inc\footer-1.inc" />
+    <Content Include="inc\footer-2.inc" />
+    <Content Include="inc\header-1.inc" />
+    <Content Include="inc\header-2.inc" />
+    <Content Include="inc\header-3.inc" />
+    <Content Include="inc\intro-section.inc" />
+    <Content Include="inc\mobile-nav.inc" />
+    <Content Include="inc\our-customers-section.inc" />
+    <Content Include="inc\page-header-1.inc" />
+    <Content Include="inc\page-header-2.inc" />
+    <Content Include="inc\page-header-section.inc" />
+    <Content Include="inc\pricing-table\additional-locations.inc" />
+    <Content Include="inc\pricing-table\data-digits.inc" />
+    <Content Include="inc\pricing-table\first-location.inc" />
+    <Content Include="inc\quick-customize-section.inc" />
+    <Content Include="inc\quick-impact-section.inc" />
+    <Content Include="inc\quick-start-section.inc" />
+    <Content Include="inc\signup-first-step.inc" />
+    <Content Include="inc\testimonial-section.inc" />
+    <Content Include="index.aspx" />
+    <Content Include="js\jquery.validate.js" />
+    <Content Include="partners.aspx" />
+    <Content Include="pricing.aspx" />
+    <Content Include="privacy-policy.aspx" />
+    <Content Include="product.aspx" />
+    <Content Include="signup.aspx" />
+    <Content Include="terms-of-use.aspx" />
+    <Content Include="thankyou.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="welcome.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="thankyou.aspx.vb">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="welcome.aspx.vb">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -124,10 +217,33 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\fonts\fontello.eot" />
+    <Content Include="assets\fonts\fontello.ttf" />
+    <Content Include="assets\fonts\fontello.woff" />
+    <Content Include="assets\fonts\fontello.woff2" />
+    <Content Include="assets\fonts\Poppins-Black.ttf" />
+    <Content Include="assets\fonts\Poppins-BlackItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-Bold.ttf" />
+    <Content Include="assets\fonts\Poppins-BoldItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-ExtraBold.ttf" />
+    <Content Include="assets\fonts\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-ExtraLight.ttf" />
+    <Content Include="assets\fonts\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-Italic.ttf" />
+    <Content Include="assets\fonts\Poppins-Light.ttf" />
+    <Content Include="assets\fonts\Poppins-LightItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-Medium.ttf" />
+    <Content Include="assets\fonts\Poppins-MediumItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-Regular.ttf" />
+    <Content Include="assets\fonts\Poppins-SemiBold.ttf" />
+    <Content Include="assets\fonts\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="assets\fonts\Poppins-Thin.ttf" />
+    <Content Include="assets\fonts\Poppins-ThinItalic.ttf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
@@ -140,6 +256,15 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SendEmailClass\SendEmailClass.vbproj">
+      <Project>{3e16ca46-c885-49ce-8fc3-9d94e94adc44}</Project>
+      <Name>SendEmailClass</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -168,7 +293,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>58083</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:58083/</IISUrl>
+          <IISUrl>https://localhost:44358/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>https://localhost:44358/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

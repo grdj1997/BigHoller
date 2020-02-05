@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BigHoller", "BigHoller\BigHoller.vbproj", "{2593DA9C-A543-4F4B-BBF3-1D49014D0FE1}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SendEmailClass", "SendEmailClass\SendEmailClass.vbproj", "{3E16CA46-C885-49CE-8FC3-9D94E94ADC44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2593DA9C-A543-4F4B-BBF3-1D49014D0FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2593DA9C-A543-4F4B-BBF3-1D49014D0FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2593DA9C-A543-4F4B-BBF3-1D49014D0FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E16CA46-C885-49CE-8FC3-9D94E94ADC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E16CA46-C885-49CE-8FC3-9D94E94ADC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E16CA46-C885-49CE-8FC3-9D94E94ADC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E16CA46-C885-49CE-8FC3-9D94E94ADC44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
